@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CipherApp.MainPage">
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="10"
+            Padding="30"
+            Background="#2D4356">
+            <Label FontSize="30" FontAttributes="Bold" Text="Cipher App" HorizontalOptions="Center" TextColor="white" Margin="0, 20" />
+
+            <Frame Padding="12, 2">
+                <Editor FontSize="16" x:Name="Editor" AutoSize="TextChanges" HeightRequest="200" Background="transparent" />
+            </Frame>
+            <Button x:Name="BtnConvert" Clicked="BtnConvert_Clicked" Text="Convert" Background="#03C988" TextColor="white" />
+
+            <Frame Padding="10" x:Name="Frame" BackgroundColor="white" VerticalOptions="End" IsVisible="False" Margin="0, 30">
+                <VerticalStackLayout>
+                    <Label Padding="0, 10" FontSize="16" x:Name="Label" />
+
+                    <Button Clicked="BtnCopy_Clicked" Text="Copy" x:Name="BtnCopy" Background="#03C988" />
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
