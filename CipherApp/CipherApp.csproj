@@ -12,10 +12,10 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 
 		<!-- Display name -->
-		<ApplicationTitle>CipherApp</ApplicationTitle>
+		<ApplicationTitle>Cipher</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.cipherapp</ApplicationId>
+		<ApplicationId>com.jpjapos.cipherapp</ApplicationId>
 		<ApplicationIdGuid>05929b6a-e157-4d78-900e-66d18cd52d6a</ApplicationIdGuid>
 
 		<!-- Versions -->
@@ -61,5 +61,4 @@
 		<PackageReference Include="AMS.Hasher" Version="1.1.1" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
-
 </Project>
